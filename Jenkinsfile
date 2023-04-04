@@ -9,7 +9,7 @@ pipeline {
         stage('Build image') {
             steps {
                 script {
-                    def app = docker.build("andonovangel/KIII-Jenkins")
+                    def app = docker.build("andonovangel/kiii-jenkins")
                 }
             }
         }
